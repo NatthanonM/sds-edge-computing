@@ -12,7 +12,7 @@ def get_answer(id):
     # test_id = 1
     # test_data = data[test_id]
 
-    selected_building = "ENG3"
+    selected_building = "POL3"
     data = []
     with open(
         f"{os.path.dirname(__file__)}/../database/data/building-{selected_building}.txt"
