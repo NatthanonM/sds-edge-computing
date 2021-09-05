@@ -2,55 +2,50 @@ import os.path
 from algorithm.exthit_bldg import ExtHit_Bldg
 from algorithm.inhit import InHit
 import json
+from typing import List, Dict, Any
 
 
-def get_answer(id):
-    # # data = []
-    # # with open("Data/data.txt") as f:
-    # #     for line in f:
-    # #         data.append(json.loads(line))
-    # # size = len(data)
-    # # test_id = 1
-    # # test_data = data[test_id]
-
-    # selected_building = "ENG3"
-    # data = []
-    # with open(
-    #     f"{os.path.dirname(__file__)}/../database/data/building-{selected_building}.txt"
-    # ) as f:
-    #     for line in f:
-    #         data.append(json.loads(line))
-    # size = len(data)
-    # test_id = id
-    # test_data = data[test_id]
-    # train_data = data[:test_id] + data[test_id + 1 :]
-    # inhit = InHit(100, 3, 100, data)
-    # # ans = inhit.predict_all(test_data_list)
-    # # start = time.time()
-    # ans = inhit.localize(test_data["access_point"])
-    # # end = time.time()
-    # # print(ans)
-    # # print((end - start) * 1000)
-    # return ans
-
+def init_example(id_list: List[int] = []) -> Dict[int, Any]:
     data = []
     with open(f"{os.path.dirname(__file__)}/../database/data.txt") as f:
         for line in f:
             data.append(json.loads(line))
-    test_id = id
-    test_data = data[test_id]
-    train_data = data
-    exthit_bldg = ExtHit_Bldg(20, train_data[:test_id] + train_data[test_id + 1 :])
+    example_dict = dict()
+    for id in id_list:
+        example_dict[id] = data[id]["access_point"]
+    return example_dict
 
-    building_ans = exthit_bldg.localize(test_data["access_point"])
+
+def init_exthit(except_id: List[int] = []) -> ExtHit_Bldg:
+    data = []
+    with open(f"{os.path.dirname(__file__)}/../database/data.txt") as f:
+        for line in f:
+            data.append(json.loads(line))
+    for e in except_id:
+        del data[e]
+    exthit_bldg = ExtHit_Bldg(20, data)
+    return exthit_bldg
+
+
+def init_inhit(building_name: str) -> InHit:
     data = []
     with open(
-        f"{os.path.dirname(__file__)}/../database/data/building-{building_ans[0]}.txt"
+        f"{os.path.dirname(__file__)}/../database/data/building-{building_name}.txt"
     ) as f:
         for line in f:
             data.append(json.loads(line))
+    inhit = InHit(100, 3, 100, data)
+    return inhit
 
-    train_data = data
-    inhit = InHit(100, 3, 100, train_data)
-    ans = inhit.localize(test_data["access_point"])
-    return building_ans[0], ans
+
+def get_answer(
+    exthit_obj: ExtHit_Bldg, inhit_obj: InHit, access_point: List[Dict[str, Any]]
+) -> Dict[str, Any]:
+    building_ans = exthit_obj.localize(access_point)
+    inhit_ans = inhit_obj.localize(access_point)
+    ans_dict = {
+        "building": building_ans[0],
+        "floor": inhit_ans["floor"],
+        "tag": inhit_ans["tag"],
+    }
+    return ans_dict
