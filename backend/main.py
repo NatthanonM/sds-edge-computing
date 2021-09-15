@@ -41,7 +41,9 @@ def hello_central(id):
     ans = (inhit_dict[building_ans[0]]).localize(input_query)
     b, f = building_ans[0], ans
     end = time.time()
-    return f"<p>Hello, Central!</p><p>{b} {f}</p><p>response time: {(end - start) * 1000} ms</p>"
+    print("compute time:", (end - start) * 1000)
+    res = {"compute_time": (end - start) * 1000, "building_id": b, "location": f}
+    return jsonify(res)
 
 
 if __name__ == "__main__":
