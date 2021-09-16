@@ -1,16 +1,20 @@
 <template>
   <div class="main">
-    <h1>Welcome</h1>
+    <h1>Welcome to Edge-Cloud Architecture</h1>
     <table>
       <tr>
         <th>Query ID</th>
-        <th>Response (Architecture A)</th>
-        <th>Response (Architecture B)</th>
+        <th>Response <br />Architecture A: Central-Cloud Architecture</th>
+        <th>
+          Response <br />
+          Architecture B: Edge-Cloud Architecture
+        </th>
         <th>Query by Using</th>
       </tr>
       <tr v-for="(query, index) in queries" :key="query.qId">
         <td>{{ query.qId }}</td>
-        <td class="response">
+        <td v-if="query.loadingA">Loading..</td>
+        <td v-else class="response">
           <div>
             <span class="title">Location: </span
             >{{
@@ -22,7 +26,8 @@
             {{ query.responseA ? `${query.responseA.responseTime} ms` : "" }}
           </div>
         </td>
-        <td class="response">
+        <td v-if="query.loadingB">Loading..</td>
+        <td v-else class="response">
           <div>
             <span class="title">Location: </span
             >{{
@@ -59,26 +64,36 @@ export default {
       queries: [
         {
           qId: "1",
+          loadingA: false,
+          loadingB: false,
           responseA: null,
           responseB: null,
         },
         {
           qId: "2",
+          loadingA: false,
+          loadingB: false,
           responseA: null,
           responseB: null,
         },
         {
           qId: "3",
+          loadingA: false,
+          loadingB: false,
           responseA: null,
           responseB: null,
         },
         {
           qId: "4",
+          loadingA: false,
+          loadingB: false,
           responseA: null,
           responseB: null,
         },
         {
           qId: "5",
+          loadingA: false,
+          loadingB: false,
           responseA: null,
           responseB: null,
         },
@@ -87,16 +102,18 @@ export default {
   },
   methods: {
     async queryArch(arch, qId, index) {
+      this.queries[index][`loading${arch}`] = true;
+      this.queries[index][`response${arch}`] = null;
       await queryService
         .indoorQuery(arch, qId)
-        .then((response) => {
-          // console.log(response);
-          if (arch === "A") this.queries[index].responseA = response;
-          if (arch === "B") this.queries[index].responseB = response;
+        .then(({ data: location, responseTime }) => {
+          const response = { location, responseTime };
+          this.queries[index][`response${arch}`] = response;
         })
         .catch((err) => {
           console.log(err.message);
         });
+      this.queries[index][`loading${arch}`] = false;
     },
   },
 };
