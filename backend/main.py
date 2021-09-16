@@ -41,12 +41,16 @@ def hello_world(id):
     return f"<p>Hello, Edge!</p><p>{example_building[id]} {ans}</p><p>response time: {(end - start) * 1000} ms</p>"
 
 
-@app.route("/central")
-def hello_central():
-    central_address = os.environ["central_address"]
+@app.route("/central/<int:id>")
+def hello_central(id):
+    if id < 0 or id > len(example_id):
+        abort(404, description="Not found")
+    start = time.time()
+    central_address = f"http://54.179.136.231:5000/central/{id}"
     r = requests.get(central_address)
-    print(r.status_code)
-    return "<p>Hello, Central! {}</p>".format(central_address)
+    building_id, location = r.json()["building_id"], r.json()["location"]
+    end = time.time()
+    return f"<p>Hello, Central!</p><p>{building_id} {location}</p><p>response time: {(end - start) * 1000} ms</p>"
 
 
 if __name__ == "__main__":
