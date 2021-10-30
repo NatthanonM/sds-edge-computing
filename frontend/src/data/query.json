@@ -1,0 +1,19 @@
+{
+  "_comment": "EditHere",
+  "1": [
+    {
+      "RSSI": -48,
+      "frequency": 2462,
+      "SSID": "ChulaWiFi",
+      "BSSID": "68:86:a7:f4:a7:d2"
+    }
+  ],
+  "2": [
+    {
+      "RSSI": -78,
+      "frequency": 2467,
+      "SSID": "ChulaWiFi3",
+      "BSSID": "68:86:a7:f4:a4:e2"
+    }
+  ]
+}
