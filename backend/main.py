@@ -31,7 +31,7 @@ def resource_not_found(e):
     return jsonify(error=str(e)), 404
 
 
-@app.route("/get-location", methods=["GET"])
+@app.route("/get-location", methods=["POST"])
 def get_location():
     request_data = request.get_json()
     input_query = request_data["finger_print"]
@@ -42,7 +42,7 @@ def get_location():
         res = {"building_id": SELECT_BUILDING, "floor": floor, "tag": tag}
     else:
         central_url = f"{CENTRAL_ADDRESS}/get-location"
-        r = requests.get(central_url)
+        r = requests.post(central_url, data={"finger_print": input_query})
         building_id, floor, tag = (
             r.json()["building_id"],
             r.json()["floor"],
