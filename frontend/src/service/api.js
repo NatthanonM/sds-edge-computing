@@ -57,13 +57,13 @@ const queryService = {
     // });
     if (arch === "A") {
       return cloudApi.post("/get-location", {
-        finger_print: fps[qId].fp,
+        finger_print: fps[qId - 1].fp,
       });
     }
     if (arch === "B") {
       return edgeApi.post("/get-location", {
-        building_id: fps[qId].b_id,
-        finger_print: fps[qId].fp,
+        building_id: fps[qId - 1].b_id,
+        finger_print: fps[qId - 1].fp,
       });
     }
     return new Promise((resolve, reject) => {
