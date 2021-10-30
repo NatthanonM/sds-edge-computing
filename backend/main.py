@@ -28,7 +28,7 @@ def resource_not_found(e):
     return jsonify(error=str(e)), 404
 
 
-@app.route("/get-location", methods=["GET"])
+@app.route("/get-location", methods=["POST"])
 def get_location():
     request_data = request.get_json()
     input_query = request_data["finger_print"]
