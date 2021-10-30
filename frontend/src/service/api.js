@@ -2,6 +2,18 @@ import axios from "axios";
 import config from "../config/config";
 import querysrc from "../data/query.json";
 import fp1 from "../data/fp1.json";
+import fp2 from "../data/fp2.json";
+import fp3 from "../data/fp3.json";
+import fp4 from "../data/fp4.json";
+import fp5 from "../data/fp5.json";
+
+const fps = [
+  { b_id: "POL3", fp: fp1 },
+  { b_id: "ARCH", fp: fp2 },
+  { b_id: "ENG4", fp: fp3 },
+  { b_id: "ENG100", fp: fp4 },
+  { b_id: "ENG2", fp: fp5 },
+];
 
 axios.interceptors.request.use((x) => {
   x.meta = x.meta || {};
@@ -45,12 +57,14 @@ const queryService = {
     // });
     if (arch === "A") {
       return cloudApi.post("/get-location", {
-        building: "POL3",
-        finger_print: fp1,
+        finger_print: fps[qId].fp,
       });
     }
     if (arch === "B") {
-      return edgeApi.post("", querysrc[qId]);
+      return edgeApi.post("/get-location", {
+        building_id: fps[qId].b_id,
+        finger_print: fps[qId].fp,
+      });
     }
     return new Promise((resolve, reject) => {
       reject(new Error("wrong arguement"));
