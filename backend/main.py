@@ -1,10 +1,13 @@
 from flask import Flask, abort, jsonify, request
+from flask_cors import CORS
 import requests
 import os
 import edge
 import time
 
 app = Flask(__name__)
+CORS(app)
+
 
 CENTRAL_ADDRESS = "http://localhost:5000"
 SELECT_BUILDING = "POL3"
