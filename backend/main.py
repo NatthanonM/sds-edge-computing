@@ -1,7 +1,9 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 import central
 
 app = Flask(__name__)
+CORS(app)
 
 example_id = [1, 71, 167, 188, 202, 235, 269, 294, 303, 336]
 example_building = [
