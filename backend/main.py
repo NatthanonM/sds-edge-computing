@@ -42,7 +42,7 @@ def get_location():
         res = {"building_id": SELECT_BUILDING, "floor": floor, "tag": tag}
     else:
         central_url = f"{CENTRAL_ADDRESS}/get-location"
-        r = requests.post(central_url, data={"finger_print": input_query})
+        r = requests.post(central_url, json={"finger_print": input_query})
         building_id, floor, tag = (
             r.json()["building_id"],
             r.json()["floor"],
