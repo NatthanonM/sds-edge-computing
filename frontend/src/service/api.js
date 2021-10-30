@@ -1,6 +1,8 @@
 import axios from "axios";
 import config from "../config/config";
 import querysrc from "../data/query.json";
+import fp1 from "../data/fp1.json";
+
 axios.interceptors.request.use((x) => {
   x.meta = x.meta || {};
   x.meta.requestStartedAt = new Date().getTime();
@@ -42,7 +44,10 @@ const queryService = {
     //   );
     // });
     if (arch === "A") {
-      return cloudApi.post("", querysrc[qId]);
+      return cloudApi.post("/get-location", {
+        building: "POL3",
+        finger_print: fp1,
+      });
     }
     if (arch === "B") {
       return edgeApi.post("", querysrc[qId]);
