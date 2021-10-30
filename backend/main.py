@@ -1,8 +1,5 @@
-from flask import Flask, abort, jsonify
-import requests
-import os
+from flask import Flask, jsonify, request
 import central
-import time
 
 app = Flask(__name__)
 
@@ -31,18 +28,15 @@ def resource_not_found(e):
     return jsonify(error=str(e)), 404
 
 
-@app.route("/central/<int:id>")
-def hello_central(id):
-    if id < 0 or id > len(example_id):
-        abort(404, description="Not found")
-    start = time.time()
-    input_query = example_query[example_id[id]]
+@app.route("/get-location", methods=["GET"])
+def get_location():
+    request_data = request.get_json()
+    input_query = request_data["finger_print"]
     building_ans = exthit.localize(input_query)
     ans = (inhit_dict[building_ans[0]]).localize(input_query)
-    b, f = building_ans[0], ans
-    end = time.time()
-    print("compute time:", (end - start) * 1000)
-    res = {"compute_time": (end - start) * 1000, "building_id": b, "location": f}
+    building_id = building_ans[0]
+    floor, tag = ans["floor"], ans["tag"]
+    res = {"building_id": building_id, "floor": floor, "tag": tag}
     return jsonify(res)
 
 
