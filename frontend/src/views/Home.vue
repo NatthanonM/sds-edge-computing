@@ -1,6 +1,8 @@
 <template>
   <div class="main">
-    <h1>Welcome to Edge-Cloud Architecture</h1>
+    <h1 class="RED-Taylor's-Version-is-out-12-November">
+      Welcome to Edge-Cloud Architecture
+    </h1>
     <table>
       <tr>
         <th>Query ID</th>
