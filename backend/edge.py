@@ -6,7 +6,7 @@ from typing import List, Dict, Any
 
 def init_example(id_list: List[int] = []) -> Dict[int, Any]:
     data = []
-    with open(f"{os.path.dirname(__file__)}/../database/data.txt") as f:
+    with open(f"{os.path.dirname(__file__)}/database/data.txt") as f:
         for line in f:
             data.append(json.loads(line))
     example_dict = dict()
@@ -18,7 +18,7 @@ def init_example(id_list: List[int] = []) -> Dict[int, Any]:
 def init_inhit(building_name: str) -> InHit:
     data = []
     with open(
-        f"{os.path.dirname(__file__)}/../database/data/building-{building_name}.txt"
+        f"{os.path.dirname(__file__)}/database/data/building-{building_name}.txt"
     ) as f:
         for line in f:
             data.append(json.loads(line))

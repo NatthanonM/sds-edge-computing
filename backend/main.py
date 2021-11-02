@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-CENTRAL_ADDRESS = "http://localhost:5000"
+CENTRAL_ADDRESS = os.environ["central_address"]
 SELECT_BUILDING = "POL3"
 
 example_id = [1, 71, 167, 188, 202, 235, 269, 294, 303, 336]
@@ -56,4 +56,4 @@ def get_location():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000)
+    app.run(host="0.0.0.0", port=5000)
