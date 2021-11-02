@@ -15,21 +15,6 @@ const fps = [
   { b_id: "ENG2", fp: fp5 },
 ];
 
-axios.interceptors.request.use((x) => {
-  x.meta = x.meta || {};
-  x.meta.requestStartedAt = new Date().getTime();
-  return x;
-});
-axios.interceptors.response.use(
-  (x) => {
-    x.responseTime = new Date().getTime() - x.config.meta.requestStartedAt;
-    return x;
-  },
-  (err) => {
-    throw err;
-  }
-);
-
 const edgeApi = axios.create({
   baseURL: `${config.edge_url}/`,
   headers: {
@@ -42,6 +27,36 @@ const cloudApi = axios.create({
     "Content-Type": "application/json",
   },
 });
+
+edgeApi.interceptors.request.use((x) => {
+  x.meta = x.meta || {};
+  x.meta.requestStartedAt = new Date().getTime();
+  return x;
+});
+edgeApi.interceptors.response.use(
+  (x) => {
+    x.responseTime = new Date().getTime() - x.config.meta.requestStartedAt;
+    return x;
+  },
+  (err) => {
+    throw err;
+  }
+);
+
+cloudApi.interceptors.request.use((x) => {
+  x.meta = x.meta || {};
+  x.meta.requestStartedAt = new Date().getTime();
+  return x;
+});
+cloudApi.interceptors.response.use(
+  (x) => {
+    x.responseTime = new Date().getTime() - x.config.meta.requestStartedAt;
+    return x;
+  },
+  (err) => {
+    throw err;
+  }
+);
 const queryService = {
   indoorQuery(arch, qId) {
     // MockTest;
