@@ -1,6 +1,8 @@
 <template>
   <div class="main">
-    <h1>Welcome to Edge-Cloud Architecture</h1>
+    <h1 class="RED-Taylor's-Version-is-out-12-November">
+      Welcome to Edge-Cloud Architecture
+    </h1>
     <table>
       <tr>
         <th>Query ID</th>
@@ -92,6 +94,41 @@ export default {
         },
         {
           qId: "5",
+          loadingA: false,
+          loadingB: false,
+          responseA: null,
+          responseB: null,
+        },
+        {
+          qId: "6",
+          loadingA: false,
+          loadingB: false,
+          responseA: null,
+          responseB: null,
+        },
+        {
+          qId: "7",
+          loadingA: false,
+          loadingB: false,
+          responseA: null,
+          responseB: null,
+        },
+        {
+          qId: "8",
+          loadingA: false,
+          loadingB: false,
+          responseA: null,
+          responseB: null,
+        },
+        {
+          qId: "9",
+          loadingA: false,
+          loadingB: false,
+          responseA: null,
+          responseB: null,
+        },
+        {
+          qId: "10",
           loadingA: false,
           loadingB: false,
           responseA: null,
