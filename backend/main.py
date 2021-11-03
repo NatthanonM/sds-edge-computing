@@ -8,7 +8,7 @@ import time
 app = Flask(__name__)
 CORS(app)
 
-
+os.environ["central_address"] = "http://52.221.219.190:5000"
 CENTRAL_ADDRESS = os.environ["central_address"]
 SELECT_BUILDING = "POL3"  # POL3
 
@@ -48,7 +48,6 @@ def get_location():
         r = requests.post(
             central_url,
             json={
-                "building_id": request_data["building_id"],
                 "finger_print": input_query,
             },
         )
