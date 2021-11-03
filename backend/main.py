@@ -18,6 +18,8 @@ example_building = [
     "MHMK",
     "PHYS1",
 ]
+example_query = central.init_example(example_id)
+exthit = central.init_exthit(except_id=example_id)
 inhit_dict = dict()
 for b in example_building:
     inhit_dict[b] = central.init_inhit(b)
@@ -31,9 +33,10 @@ def resource_not_found(e):
 @app.route("/get-location", methods=["POST"])
 def get_location():
     request_data = request.get_json()
-    building_id = request_data["building_id"]
     input_query = request_data["finger_print"]
-    ans = inhit_dict[building_id].localize(input_query)
+    building_ans = exthit.localize(input_query)
+    ans = (inhit_dict[building_ans[0]]).localize(input_query)
+    building_id = building_ans[0]
     floor, tag = ans["floor"], ans["tag"]
     res = {"building_id": building_id, "floor": floor, "tag": tag}
     return jsonify(res)
