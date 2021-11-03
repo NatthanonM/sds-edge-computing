@@ -7,11 +7,18 @@ import fp3 from "../data/fp3.json";
 import fp4 from "../data/fp4.json";
 import fp5 from "../data/fp5.json";
 
+// "POL3"   # 2
+// "ARCH"   # 1
+// "ENG4"   # 1
+// "EN100"  # 2
+// "ENG2"   # 2
+// "ENG1"   # 2
+
 const fps = [
   { b_id: "POL3", fp: fp1 },
   { b_id: "ARCH", fp: fp2 },
   { b_id: "ENG4", fp: fp3 },
-  { b_id: "ENG100", fp: fp4 },
+  { b_id: "EN100", fp: fp4 },
   { b_id: "ENG2", fp: fp5 },
 ];
 

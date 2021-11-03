@@ -10,16 +10,16 @@ CORS(app)
 
 
 CENTRAL_ADDRESS = os.environ["central_address"]
-SELECT_BUILDING = "POL3"
+SELECT_BUILDING = "POL3"  # POL3
 
 example_id = [1, 71, 167, 188, 202, 235, 269, 294, 303, 336]
 example_building = [
-    "POL3",
-    "ARCH",
-    "ENG4",
-    "EN100",
-    "ENG2",
-    "ENG1",
+    "POL3",  # 2
+    "ARCH",  # 1
+    "ENG4",  # 1
+    "EN100",  # 2
+    "ENG2",  # 2
+    "ENG1",  # 2
     "MCS",
     "MHVH",
     "MHMK",
