@@ -10,4 +10,4 @@ ENV central_address "127.0.0.1"
 
 CMD ["python", "./main.py" ]
 
-EXPOSE 5000
+# EXPOSE 5000

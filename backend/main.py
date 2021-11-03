@@ -8,8 +8,10 @@ import time
 app = Flask(__name__)
 CORS(app)
 
-os.environ["central_address"] = "http://52.221.219.190:5000"
 CENTRAL_ADDRESS = os.environ["central_address"]
+print("====CENTRAL ADDRESS====")
+print(CENTRAL_ADDRESS)
+print("=======================")
 SELECT_BUILDING = "POL3"  # POL3
 
 example_id = [1, 71, 167, 188, 202, 235, 269, 294, 303, 336]
