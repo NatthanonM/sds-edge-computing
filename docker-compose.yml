@@ -5,7 +5,7 @@ services:
     image: natthanonm/sds-edge-computing-frontend:latest
     environment:
       - VUE_APP_CLOUD_URL=${CENTRAL_ADDRESS}
-      - VUE_APP_EDGE_URL=http://localhost:5000
+      - VUE_APP_EDGE_URL=http://localhost:50000
     ports:
       - "8080:8080"
   edge-server:
@@ -14,4 +14,4 @@ services:
     environment:
       - central_address=${CENTRAL_ADDRESS}
     ports:
-      - "5000:5000"
+      - "50000:5000"
