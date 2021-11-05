@@ -5,9 +5,9 @@ services:
     build:
       context: ./frontend
       dockerfile: ./dockerfile
-      args:
-        - VUE_APP_CLOUD_URL=${CENTRAL_ADDRESS}
-        - VUE_APP_EDGE_URL=http://localhost:5000
+    environment:
+      - VUE_APP_CLOUD_URL=${CENTRAL_ADDRESS}
+      - VUE_APP_EDGE_URL=http://localhost:5000
     ports:
       - "8080:8080"
     links:
