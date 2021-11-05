@@ -1,20 +1,602 @@
-[{"RSSI": -45, "frequency": 2462, "SSID": "ChulaWiFi", "BSSID": "b0:00:b4:a1:e7:a2"}, {"RSSI": -45, "frequency": 5500, "SSID": ".@TRUEWIFI", "BSSID": "b0:00:b4:a1:e7:af"}, {"RSSI": -45, "frequency": 2462, "SSID": ".@TRUEWIFI", "BSSID": "b0:00:b4:a1:e7:a0"}, {"RSSI": -46, "frequency": 2462, "SSID": "", 
-"BSSID": "b0:00:b4:a1:e7:a4"}, {"RSSI": -52, "frequency": 5240, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:b4:8a:78"}, {"RSSI": -52, "frequency": 2412, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:b4:58:07"}, {"RSSI": -52, "frequency": 2412, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:b4:58:08"}, {"RSSI": -52, "frequency": 2412, "SSID": "Chula-guest", "BSSID": "34:db:fd:b4:58:06"}, {"RSSI": -52, "frequency": 2412, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:b4:58:01"}, {"RSSI": -52, "frequency": 2412, 
-"SSID": "@dtacwifiauto", "BSSID": "34:db:fd:b4:58:04"}, {"RSSI": -52, "frequency": 2412, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:b4:58:05"}, {"RSSI": -52, "frequency": 2412, "SSID": "@dtacwifi", "BSSID": "34:db:fd:b4:58:03"}, {"RSSI": -53, "frequency": 5240, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:b4:8a:7a"}, {"RSSI": -54, "frequency": 5180, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:b4:58:0a"}, {"RSSI": -54, "frequency": 5180, "SSID": "@dtacwifi", "BSSID": "34:db:fd:b4:58:0c"}, {"RSSI": -54, "frequency": 5240, "SSID": "@dtacwifi", "BSSID": "34:db:fd:b4:8a:7c"}, {"RSSI": -55, "frequency": 5180, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:b4:58:08"}, {"RSSI": -56, "frequency": 2412, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:b4:8a:78"}, {"RSSI": -57, "frequency": 2437, "SSID": "ChulaWiFi", "BSSID": "28:34:a2:4e:99:42"}, {"RSSI": -57, "frequency": 2412, "SSID": "ChulaWiFi", "BSSID": "2c:3e:cf:cf:62:12"}, {"RSSI": -57, "frequency": 2412, "SSID": "", "BSSID": "2c:3e:cf:cf:62:11"}, {"RSSI": -57, "frequency": 2462, "SSID": "ChulaWiFi", "BSSID": "b0:00:b4:7f:56:02"}, {"RSSI": -57, "frequency": 5180, "SSID": ".@TRUEWIFI", "BSSID": "28:34:a2:4e:99:4f"}, {"RSSI": -57, "frequency": 2437, "SSID": ".@TRUEWIFI", "BSSID": "28:34:a2:4e:99:40"}, {"RSSI": -57, "frequency": 2412, "SSID": ".@TRUEWIFI", "BSSID": "2c:3e:cf:cf:62:10"}, {"RSSI": -59, "frequency": 2462, "SSID": ".@TRUEWIFI", "BSSID": "b0:00:b4:7f:56:00"}, {"RSSI": -60, "frequency": 2412, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:b4:8a:77"}, {"RSSI": -61, "frequency": 2437, "SSID": "@dtacwifiauto", "BSSID": "34:db:fd:a4:db:e4"}, {"RSSI": -61, 
-"frequency": 2412, "SSID": "Chula-guest", "BSSID": "34:db:fd:b4:8a:76"}, {"RSSI": -61, "frequency": 2412, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:b4:8a:71"}, {"RSSI": -61, "frequency": 5560, "SSID": ".@TRUEWIFI", "BSSID": "b0:00:b4:7f:5f:8f"}, {"RSSI": -61, "frequency": 2412, "SSID": "@dtacwifi", "BSSID": "34:db:fd:b4:8a:73"}, {"RSSI": -61, "frequency": 2412, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:b4:8a:75"}, {"RSSI": -62, "frequency": 2437, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:a4:db:e7"}, 
-{"RSSI": -62, "frequency": 5660, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:67:e7:f8"}, {"RSSI": -62, "frequency": 2437, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:a4:db:e8"}, {"RSSI": -62, "frequency": 2437, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:a4:db:e5"}, {"RSSI": -62, "frequency": 2437, "SSID": "@dtacwifi", "BSSID": "34:db:fd:a4:db:e3"}, {"RSSI": -62, "frequency": 2412, "SSID": "@dtacwifiauto", "BSSID": "34:db:fd:b4:8a:74"}, {"RSSI": -62, "frequency": 2437, "SSID": "Chula-guest", "BSSID": "34:db:fd:a4:db:e6"}, {"RSSI": -62, "frequency": 2462, "SSID": "Chula-guest", "BSSID": "34:db:fd:67:e7:f6"}, {"RSSI": -63, "frequency": 5660, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:a4:db:e8"}, {"RSSI": -63, "frequency": 5660, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:67:e7:fe"}, {"RSSI": -63, "frequency": 5660, "SSID": "Chula-guest", "BSSID": "34:db:fd:67:e7:f9"}, {"RSSI": -63, "frequency": 5560, "SSID": "ChulaWiFi", "BSSID": "b0:00:b4:7f:5f:8d"}, {"RSSI": -63, "frequency": 2437, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:a4:db:e1"}, {"RSSI": -63, "frequency": 2462, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:67:e7:f7"}, {"RSSI": -63, "frequency": 5660, "SSID": "Chula-guest", "BSSID": "34:db:fd:a4:db:e9"}, {"RSSI": -63, "frequency": 5660, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:a4:db:e7"}, {"RSSI": -63, "frequency": 2462, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:67:e7:f1"}, {"RSSI": -63, "frequency": 2462, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:67:e7:f8"}, {"RSSI": -63, "frequency": 5180, "SSID": ".@TRUEWIFI", "BSSID": "b0:00:b4:7f:56:0f"}, {"RSSI": -63, "frequency": 5660, "SSID": "@dtacwifi", "BSSID": "34:db:fd:a4:db:ec"}, {"RSSI": -63, "frequency": 5660, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:67:e7:fa"}, {"RSSI": -63, "frequency": 2462, "SSID": "@dtacwifi", "BSSID": "34:db:fd:67:e7:f3"}, {"RSSI": -63, "frequency": 2462, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:67:e7:f5"}, {"RSSI": -64, "frequency": 5560, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:67:ff:48"}, {"RSSI": -64, "frequency": 5660, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:a4:db:ee"}, {"RSSI": -64, "frequency": 5560, 
-"SSID": "Chula-guest", "BSSID": "34:db:fd:67:ff:49"}, {"RSSI": -64, "frequency": 5560, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:67:ff:4e"}, {"RSSI": -64, "frequency": 5560, "SSID": "", "BSSID": "34:db:fd:67:ff:4f"}, {"RSSI": -64, "frequency": 5660, "SSID": "", "BSSID": "34:db:fd:a4:db:ef"}, {"RSSI": -64, "frequency": 5180, "SSID": "", "BSSID": "b0:00:b4:7f:56:0e"}, {"RSSI": -64, "frequency": 5560, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:67:ff:4a"}, {"RSSI": -64, "frequency": 5560, "SSID": "@dtacwifi", "BSSID": "34:db:fd:67:ff:4c"}, {"RSSI": -64, "frequency": 5660, "SSID": "@dtacwifi", "BSSID": "34:db:fd:67:e7:fc"}, {"RSSI": -65, "frequency": 2437, "SSID": "Qmakr", "BSSID": "00:24:a5:b4:c7:96"}, {"RSSI": -65, "frequency": 5560, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:67:ff:47"}, {"RSSI": -65, "frequency": 5660, "SSID": "@dtacwifiauto", "BSSID": "34:db:fd:67:e7:fb"}, {"RSSI": -65, "frequency": 
-5660, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:67:e7:f7"}, {"RSSI": -65, "frequency": 5660, "SSID": "@dtacwifiauto", "BSSID": "34:db:fd:a4:db:eb"}, {"RSSI": -65, "frequency": 5660, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:a4:db:ea"}, {"RSSI": -66, "frequency": 2437, "SSID": "QMakr_Wifi", "BSSID": "e8:bd:d1:be:27:e0"}, {"RSSI": -66, "frequency": 5240, "SSID": "ChulaWiFi", "BSSID": "2c:3e:cf:cf:62:1d"}, {"RSSI": -66, "frequency": 2462, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:67:ff:41"}, {"RSSI": -66, "frequency": 2462, "SSID": "@dtacwifi", "BSSID": "34:db:fd:67:ff:43"}, {"RSSI": -67, "frequency": 5560, "SSID": "", "BSSID": "18:9c:5d:82:c2:ce"}, {"RSSI": -67, "frequency": 5660, "SSID": "", "BSSID": "34:db:fd:67:e7:ff"}, {"RSSI": -67, "frequency": 2462, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:67:ff:45"}, {"RSSI": -68, "frequency": 2462, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:67:ff:47"}, {"RSSI": -68, "frequency": 2462, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:67:f7:67"}, {"RSSI": -68, 
-"frequency": 5240, "SSID": "", "BSSID": "2c:3e:cf:cf:62:1e"}, {"RSSI": -68, "frequency": 2462, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:67:f7:61"}, {"RSSI": -68, "frequency": 2412, "SSID": "", "BSSID": "b0:00:b4:7f:5f:81"}, {"RSSI": -68, "frequency": 5260, "SSID": "@TOT_Wi-Fi", "BSSID": "f4:1f:c2:71:0d:da"}, {"RSSI": -68, "frequency": 5260, "SSID": "@dtacwifi", "BSSID": "f4:1f:c2:71:0d:dc"}, {"RSSI": -68, "frequency": 2462, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:67:f7:65"}, {"RSSI": -68, "frequency": 2462, "SSID": "@dtacwifi", "BSSID": "34:db:fd:67:f7:63"}, {"RSSI": -69, "frequency": 5260, "SSID": 
-".@AISSUPERWiFi", "BSSID": "f4:1f:c2:71:0d:d8"}, {"RSSI": -69, "frequency": 5260, "SSID": "", "BSSID": "f4:1f:c2:71:0d:df"}, {"RSSI": -69, "frequency": 5260, "SSID": "AISSMARTLogin", "BSSID": "f4:1f:c2:71:0d:d7"}, {"RSSI": -69, "frequency": 2437, "SSID": "AISSMARTLogin", "BSSID": "f4:1f:c2:71:0d:d8"}, 
-{"RSSI": -69, "frequency": 2437, "SSID": "Chula-guest", "BSSID": "f4:1f:c2:71:0d:d6"}, {"RSSI": -69, 
-"frequency": 2437, "SSID": "ChulaWiFi", "BSSID": "f4:1f:c2:71:0d:d1"}, {"RSSI": -69, "frequency": 5240, "SSID": ".@TRUEWIFI", "BSSID": "2c:3e:cf:cf:62:1f"}, {"RSSI": -69, "frequency": 5560, "SSID": ".@TRUEWIFI", "BSSID": "18:9c:5d:82:c2:cf"}, {"RSSI": -70, "frequency": 5180, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:a4:e7:d8"}, {"RSSI": -70, "frequency": 5180, "SSID": "Chula-guest", "BSSID": "34:db:fd:a4:e7:d9"}, {"RSSI": -70, "frequency": 5260, "SSID": "ChulaWiFi", "BSSID": "f4:1f:c2:71:0d:de"}, 
-{"RSSI": -70, "frequency": 5560, "SSID": "ChulaWiFi", "BSSID": "18:9c:5d:82:c2:cd"}, {"RSSI": -70, "frequency": 5560, "SSID": "", "BSSID": "18:9c:5d:82:c2:cb"}, {"RSSI": -70, "frequency": 5180, "SSID": 
-"ChulaWiFi", "BSSID": "34:db:fd:a4:e7:de"}, {"RSSI": -70, "frequency": 2437, "SSID": "@dtacwifiauto", "BSSID": "f4:1f:c2:71:0d:d4"}, {"RSSI": -70, "frequency": 5180, "SSID": "@dtacwifi", "BSSID": "34:db:fd:a4:e7:dc"}, {"RSSI": -70, "frequency": 5180, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:a4:e7:da"}, {"RSSI": -70, "frequency": 2437, "SSID": "@TOT_Wi-Fi", "BSSID": "f4:1f:c2:71:0d:d5"}, {"RSSI": -70, 
-"frequency": 2437, "SSID": "@dtacwifi", "BSSID": "f4:1f:c2:71:0d:d3"}, {"RSSI": -71, "frequency": 2437, "SSID": ".@AISSUPERWiFi", "BSSID": "f4:1f:c2:71:0d:d7"}, {"RSSI": -71, "frequency": 5260, "SSID": 
-"@dtacwifiauto", "BSSID": "f4:1f:c2:71:0d:db"}, {"RSSI": -71, "frequency": 5180, "SSID": "", "BSSID": "34:db:fd:a4:e7:df"}, {"RSSI": -71, "frequency": 5260, "SSID": "Chula-guest", "BSSID": "f4:1f:c2:71:0d:d9"}, {"RSSI": -71, "frequency": 2462, "SSID": "Chula-guest", "BSSID": "34:db:fd:a4:e7:d6"}, {"RSSI": -72, "frequency": 2462, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:a4:e7:d7"}, {"RSSI": -72, "frequency": 5180, "SSID": "@dtacwifiauto", "BSSID": "34:db:fd:a4:e7:db"}, {"RSSI": -72, "frequency": 5180, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:a4:e7:d7"}, {"RSSI": -72, "frequency": 5180, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:67:f7:67"}, {"RSSI": -72, "frequency": 2462, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:a4:e7:d1"}, {"RSSI": -72, "frequency": 2462, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:a4:e7:d5"}, {"RSSI": -72, "frequency": 2462, "SSID": "@dtacwifi", "BSSID": "34:db:fd:a4:e7:d3"}, {"RSSI": -73, "frequency": 5500, "SSID": "", "BSSID": "18:9c:5d:9b:5f:db"}, {"RSSI": -73, "frequency": 2412, "SSID": "ChulaWiFi", "BSSID": "18:9c:5d:82:c2:c2"}, {"RSSI": -73, "frequency": 5500, "SSID": ".@TRUEWIFI", "BSSID": "18:9c:5d:9b:5f:df"}, {"RSSI": -75, "frequency": 5180, "SSID": "ChulaWiFi", 
-"BSSID": "34:db:fd:67:f7:6e"}, {"RSSI": -75, "frequency": 5500, "SSID": "", "BSSID": "18:9c:5d:9b:5f:de"}, {"RSSI": -75, "frequency": 5180, "SSID": "Chula-guest", "BSSID": "34:db:fd:67:f7:69"}, {"RSSI": -75, "frequency": 5500, "SSID": "", "BSSID": "34:db:fd:a4:e8:df"}, {"RSSI": -75, "frequency": 5500, 
-"SSID": "@dtacwifiauto", "BSSID": "34:db:fd:a4:e8:db"}, {"RSSI": -75, "frequency": 5500, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:a4:e8:d7"}, {"RSSI": -75, "frequency": 5500, "SSID": "ChulaWiFi", "BSSID": "18:9c:5d:9b:5f:dd"}, {"RSSI": -75, "frequency": 5180, "SSID": "", "BSSID": "34:db:fd:67:f7:6f"}, {"RSSI": -75, "frequency": 5180, "SSID": "@dtacwifi", "BSSID": "34:db:fd:67:f7:6c"}, {"RSSI": -76, "frequency": 5180, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:67:f7:68"}, {"RSSI": -76, "frequency": 5180, "SSID": "@dtacwifiauto", "BSSID": "34:db:fd:67:f7:6b"}, {"RSSI": -76, "frequency": 5180, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:67:f7:6a"}, {"RSSI": -76, "frequency": 5500, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:a4:e8:da"}, {"RSSI": -76, "frequency": 2412, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:a4:e8:d7"}, {"RSSI": -77, "frequency": 5500, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:a4:e8:d8"}, {"RSSI": -77, "frequency": 5500, "SSID": "Chula-guest", "BSSID": "34:db:fd:a4:e8:d9"}, {"RSSI": -77, "frequency": 5500, "SSID": "@dtacwifi", "BSSID": "34:db:fd:a4:e8:dc"}, {"RSSI": -77, "frequency": 2412, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:b4:7d:d5"}, {"RSSI": -77, "frequency": 2412, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:a4:e8:d5"}, {"RSSI": -78, "frequency": 5560, "SSID": ".@AISSUPERWiFi", "BSSID": "64:e9:50:10:54:88"}, {"RSSI": -78, "frequency": 5500, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:a4:e8:de"}, {"RSSI": -78, "frequency": 5240, "SSID": "", "BSSID": "34:db:fd:a4:ec:5f"}, {"RSSI": -78, "frequency": 2412, "SSID": "Chula-guest", "BSSID": "34:db:fd:a4:e8:d6"}, {"RSSI": -78, "frequency": 5240, "SSID": "@dtacwifi", "BSSID": "34:db:fd:a4:ec:5c"}, {"RSSI": -78, "frequency": 2412, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:b4:7d:d7"}, {"RSSI": -78, "frequency": 2412, "SSID": "@dtacwifi", "BSSID": "34:db:fd:b4:7d:d3"}, {"RSSI": -78, "frequency": 2462, "SSID": "@dtacwifi", "BSSID": "34:db:fd:a5:34:33"}, {"RSSI": -78, "frequency": 2412, "SSID": "@dtacwifi", "BSSID": "34:db:fd:a4:e8:d3"}, {"RSSI": -79, "frequency": 5240, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:a4:ec:58"}, {"RSSI": -79, "frequency": 2462, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:a5:34:37"}, {"RSSI": -79, "frequency": 5240, "SSID": "Chula-guest", "BSSID": "34:db:fd:a4:ec:59"}, {"RSSI": -79, "frequency": 5180, "SSID": "", "BSSID": "18:9c:5d:9b:75:8e"}, {"RSSI": -79, "frequency": 5240, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:a4:ec:57"}, {"RSSI": -79, "frequency": 5180, "SSID": "ChulaWiFi", "BSSID": "18:9c:5d:9b:75:8d"}, {"RSSI": -79, "frequency": 5240, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:a4:ec:5e"}, {"RSSI": -79, "frequency": 5240, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:a4:ec:5a"}, {"RSSI": -80, "frequency": 5240, "SSID": "@dtacwifiauto", "BSSID": "34:db:fd:a4:ec:5b"}, {"RSSI": -80, "frequency": 5660, "SSID": "ChulaWiFi", "BSSID": "04:da:d2:2e:dc:1d"}, {"RSSI": -80, "frequency": 5500, 
-"SSID": "Chula-guest", "BSSID": "34:db:fd:a5:34:39"}, {"RSSI": -80, "frequency": 5500, "SSID": "AISSMARTLogin", "BSSID": "34:db:fd:a5:34:37"}, {"RSSI": -80, "frequency": 2437, "SSID": "", "BSSID": "18:9c:5d:9b:75:84"}, {"RSSI": -80, "frequency": 2412, "SSID": "eduroam", "BSSID": "50:67:ae:31:3b:62"}, {"RSSI": -80, "frequency": 5500, "SSID": "@TOT_Wi-Fi", "BSSID": "34:db:fd:a5:34:3a"}, {"RSSI": -81, "frequency": 5660, "SSID": "", "BSSID": "04:da:d2:2e:dc:1b"}, {"RSSI": -81, "frequency": 5500, "SSID": 
-"ChulaWiFi", "BSSID": "34:db:fd:a5:34:3e"}, {"RSSI": -81, "frequency": 2412, "SSID": "@dtacwifiauto", "BSSID": "34:db:fd:b4:0f:84"}, {"RSSI": -81, "frequency": 5500, "SSID": ".@AISSUPERWiFi", "BSSID": "34:db:fd:a5:34:38"}, {"RSSI": -81, "frequency": 5500, "SSID": "@dtacwifi", "BSSID": "34:db:fd:a5:34:3c"}, {"RSSI": -82, "frequency": 5500, "SSID": "", "BSSID": "34:db:fd:a5:34:3f"}, {"RSSI": -82, "frequency": 2412, "SSID": "eduroam", "BSSID": "00:12:01:ec:18:f3"}, {"RSSI": -82, "frequency": 5660, "SSID": ".@TRUEWIFI", "BSSID": "04:da:d2:2e:dc:1f"}, {"RSSI": -83, "frequency": 5260, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:b4:0f:8e"}, {"RSSI": -84, "frequency": 5785, "SSID": "KCMH-HIS", "BSSID": "2c:5d:93:66:3b:8c"}, {"RSSI": -84, "frequency": 5500, "SSID": "", "BSSID": "c0:25:5c:96:15:7b"}, {"RSSI": -84, "frequency": 5500, "SSID": "", "BSSID": "c0:25:5c:96:15:7e"}, {"RSSI": -84, "frequency": 5660, "SSID": "", "BSSID": "04:da:d2:2e:dc:1e"}, {"RSSI": -84, "frequency": 2437, "SSID": "AUNSEEDNET", "BSSID": "48:f8:b3:5c:f5:1a"}, {"RSSI": -84, "frequency": 5500, "SSID": ".@TRUEWIFI", "BSSID": "c0:25:5c:96:15:7f"}, {"RSSI": -84, "frequency": 5785, "SSID": "KCMH-MDCU", "BSSID": "2c:5d:93:a6:3b:8c"}, {"RSSI": -85, "frequency": 5320, "SSID": "eduroam", "BSSID": "34:62:88:e2:c6:9d"}, {"RSSI": -85, "frequency": 5300, "SSID": "", "BSSID": "04:da:d2:2e:8f:9e"}, {"RSSI": -85, "frequency": 5500, "SSID": "ChulaWiFi", "BSSID": "c0:25:5c:96:15:7d"}, {"RSSI": -85, "frequency": 5260, "SSID": "Chula-guest", "BSSID": "34:db:fd:b4:0f:89"}, {"RSSI": -85, "frequency": 5320, "SSID": "eng-iot", "BSSID": "34:62:88:e2:c6:9a"}, {"RSSI": -85, "frequency": 5785, "SSID": "KCMH-OFFICER", "BSSID": "2c:5d:93:e6:3b:8c"}, {"RSSI": -85, "frequency": 5300, "SSID": ".@TRUEWIFI", "BSSID": "04:da:d2:2e:8f:9f"}, {"RSSI": -86, "frequency": 5240, "SSID": "eduroam", "BSSID": "34:62:88:e2:c9:6e"}, {"RSSI": -86, "frequency": 5240, "SSID": 
-"ChulaWiFi", "BSSID": "34:62:88:e2:c9:6f"}, {"RSSI": -86, "frequency": 5320, "SSID": "Chula-guest", "BSSID": "34:62:88:e2:c6:9b"}, {"RSSI": -86, "frequency": 5320, "SSID": "ChulaWiFi", "BSSID": "34:62:88:e2:c6:9c"}, {"RSSI": -86, "frequency": 5240, "SSID": "eng-iot", "BSSID": "f0:9e:63:04:ba:eb"}, {"RSSI": -87, "frequency": 5240, "SSID": "eduroam", "BSSID": "f0:9e:63:04:ba:ed"}, {"RSSI": -89, "frequency": 5180, "SSID": "ChulaWiFi", "BSSID": "34:db:fd:0b:28:2d"}, {"RSSI": -89, "frequency": 5180, "SSID": ".@TRUEWIFI", "BSSID": "34:db:fd:0b:28:2f"}]
+[
+  {
+    "RSSI": -48,
+    "frequency": 2462,
+    "SSID": "ChulaWiFi",
+    "BSSID": "68:86:a7:f4:a7:d2"
+  },
+  {
+    "RSSI": -49,
+    "frequency": 2462,
+    "SSID": ".@TRUEWIFI",
+    "BSSID": "68:86:a7:f4:a7:d0"
+  },
+  {
+    "RSSI": -50,
+    "frequency": 5180,
+    "SSID": "",
+    "BSSID": "68:86:a7:f4:a7:db"
+  },
+  {
+    "RSSI": -50,
+    "frequency": 5180,
+    "SSID": "ChulaWiFi",
+    "BSSID": "68:86:a7:f4:a7:dd"
+  },
+  {
+    "RSSI": -50,
+    "frequency": 5180,
+    "SSID": ".@TRUEWIFI",
+    "BSSID": "68:86:a7:f4:a7:df"
+  },
+  {
+    "RSSI": -50,
+    "frequency": 2462,
+    "SSID": "Chula-guest",
+    "BSSID": "00:1a:6c:5f:53:31"
+  },
+  {
+    "RSSI": -51,
+    "frequency": 5180,
+    "SSID": "",
+    "BSSID": "68:86:a7:f4:a7:de"
+  },
+  {
+    "RSSI": -51,
+    "frequency": 2462,
+    "SSID": "eduroam",
+    "BSSID": "00:1a:6c:5f:53:32"
+  },
+  {
+    "RSSI": -51,
+    "frequency": 2462,
+    "SSID": "ChulaWiFi",
+    "BSSID": "00:1a:6c:5f:53:30"
+  },
+  {
+    "RSSI": -51,
+    "frequency": 2462,
+    "SSID": "",
+    "BSSID": "68:86:a7:f4:a7:d4"
+  },
+  {
+    "RSSI": -57,
+    "frequency": 5180,
+    "SSID": "",
+    "BSSID": "34:db:fd:67:f9:5f"
+  },
+  {
+    "RSSI": -57,
+    "frequency": 5180,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "34:db:fd:67:f9:59"
+  },
+  {
+    "RSSI": -58,
+    "frequency": 5180,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "34:db:fd:67:f9:5b"
+  },
+  {
+    "RSSI": -58,
+    "frequency": 2412,
+    "SSID": "@dtacwifi",
+    "BSSID": "34:db:fd:67:f9:53"
+  },
+  {
+    "RSSI": -58,
+    "frequency": 5180,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "34:db:fd:67:f9:5a"
+  },
+  {
+    "RSSI": -58,
+    "frequency": 2412,
+    "SSID": "ChulaWiFi",
+    "BSSID": "34:db:fd:67:f9:51"
+  },
+  {
+    "RSSI": -58,
+    "frequency": 2412,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "34:db:fd:67:f9:54"
+  },
+  {
+    "RSSI": -58,
+    "frequency": 2412,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "34:db:fd:67:f9:56"
+  },
+  {
+    "RSSI": -58,
+    "frequency": 5180,
+    "SSID": "AISSMARTLogin",
+    "BSSID": "34:db:fd:67:f9:58"
+  },
+  {
+    "RSSI": -58,
+    "frequency": 5180,
+    "SSID": "ChulaWiFi",
+    "BSSID": "34:db:fd:67:f9:5e"
+  },
+  {
+    "RSSI": -59,
+    "frequency": 2412,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "34:db:fd:67:f9:55"
+  },
+  {
+    "RSSI": -59,
+    "frequency": 2412,
+    "SSID": "AISSMARTLogin",
+    "BSSID": "34:db:fd:67:f9:57"
+  },
+  {
+    "RSSI": -59,
+    "frequency": 5180,
+    "SSID": "@dtacwifi",
+    "BSSID": "34:db:fd:67:f9:5c"
+  },
+  {
+    "RSSI": -59,
+    "frequency": 2412,
+    "SSID": "",
+    "BSSID": "34:db:fd:67:f9:50"
+  },
+  {
+    "RSSI": -71,
+    "frequency": 5680,
+    "SSID": "Chula-guest",
+    "BSSID": "34:db:fd:96:95:3a"
+  },
+  {
+    "RSSI": -72,
+    "frequency": 5680,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "34:db:fd:96:95:3c"
+  },
+  {
+    "RSSI": -72,
+    "frequency": 5220,
+    "SSID": "",
+    "BSSID": "34:db:fd:a4:e8:8f"
+  },
+  {
+    "RSSI": -72,
+    "frequency": 5220,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "34:db:fd:a4:e8:8b"
+  },
+  {
+    "RSSI": -72,
+    "frequency": 2437,
+    "SSID": "Chula-guest",
+    "BSSID": "00:1a:e2:c2:dc:61"
+  },
+  {
+    "RSSI": -72,
+    "frequency": 2437,
+    "SSID": "eduroam",
+    "BSSID": "00:1a:e2:c2:dc:62"
+  },
+  {
+    "RSSI": -72,
+    "frequency": 2437,
+    "SSID": "ChulaWiFi",
+    "BSSID": "00:1a:e2:c2:dc:60"
+  },
+  {
+    "RSSI": -72,
+    "frequency": 5220,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "34:db:fd:a4:e8:8a"
+  },
+  {
+    "RSSI": -72,
+    "frequency": 5220,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "34:db:fd:a4:e8:89"
+  },
+  {
+    "RSSI": -73,
+    "frequency": 5220,
+    "SSID": "AISSMARTLogin",
+    "BSSID": "34:db:fd:a4:e8:88"
+  },
+  {
+    "RSSI": -73,
+    "frequency": 5220,
+    "SSID": "@dtacwifi",
+    "BSSID": "34:db:fd:a4:e8:8c"
+  },
+  {
+    "RSSI": -73,
+    "frequency": 5180,
+    "SSID": "ChulaWiFi",
+    "BSSID": "34:db:fd:67:fb:ae"
+  },
+  {
+    "RSSI": -73,
+    "frequency": 5180,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "34:db:fd:67:fb:ab"
+  },
+  {
+    "RSSI": -73,
+    "frequency": 5180,
+    "SSID": "",
+    "BSSID": "34:db:fd:67:fb:af"
+  },
+  {
+    "RSSI": -73,
+    "frequency": 5180,
+    "SSID": "AISSMARTLogin",
+    "BSSID": "34:db:fd:67:fb:a8"
+  },
+  {
+    "RSSI": -73,
+    "frequency": 5180,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "34:db:fd:67:fb:a9"
+  },
+  {
+    "RSSI": -73,
+    "frequency": 5180,
+    "SSID": "@dtacwifi",
+    "BSSID": "34:db:fd:67:fb:ac"
+  },
+  {
+    "RSSI": -73,
+    "frequency": 5180,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "34:db:fd:67:fb:aa"
+  },
+  {
+    "RSSI": -74,
+    "frequency": 5680,
+    "SSID": "AISSMARTLogin",
+    "BSSID": "34:db:fd:96:95:38"
+  },
+  {
+    "RSSI": -74,
+    "frequency": 5500,
+    "SSID": "",
+    "BSSID": "34:db:fd:b4:7a:af"
+  },
+  {
+    "RSSI": -74,
+    "frequency": 5240,
+    "SSID": "eduroam",
+    "BSSID": "00:3a:99:ce:0d:0d"
+  },
+  {
+    "RSSI": -75,
+    "frequency": 5680,
+    "SSID": "",
+    "BSSID": "34:db:fd:96:95:3f"
+  },
+  {
+    "RSSI": -75,
+    "frequency": 2412,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "34:db:fd:67:fb:a6"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 2462,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "34:db:fd:b4:88:a4"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 2462,
+    "SSID": "AISSMARTLogin",
+    "BSSID": "34:db:fd:b4:88:a7"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 2462,
+    "SSID": "ChulaWiFi",
+    "BSSID": "34:db:fd:b4:88:a1"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 5220,
+    "SSID": "ChulaWiFi",
+    "BSSID": "34:db:fd:a4:e8:8e"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 5680,
+    "SSID": "@dtacwifi",
+    "BSSID": "34:db:fd:96:95:3d"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 5680,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "34:db:fd:96:95:39"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 5680,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "34:db:fd:96:95:3b"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 5500,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "34:db:fd:b4:7a:ab"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 5240,
+    "SSID": "ChulaWiFi",
+    "BSSID": "00:3a:99:ce:0d:0f"
+  },
+  {
+    "RSSI": -76,
+    "frequency": 5500,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "34:db:fd:b4:7a:aa"
+  },
+  {
+    "RSSI": -77,
+    "frequency": 2462,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "34:db:fd:b4:88:a5"
+  },
+  {
+    "RSSI": -77,
+    "frequency": 2462,
+    "SSID": "@dtacwifi",
+    "BSSID": "34:db:fd:b4:88:a3"
+  },
+  {
+    "RSSI": -77,
+    "frequency": 2462,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "34:db:fd:b4:88:a6"
+  },
+  {
+    "RSSI": -77,
+    "frequency": 2412,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "34:db:fd:96:95:33"
+  },
+  {
+    "RSSI": -77,
+    "frequency": 5500,
+    "SSID": "@dtacwifi",
+    "BSSID": "34:db:fd:b4:7a:ac"
+  },
+  {
+    "RSSI": -78,
+    "frequency": 5500,
+    "SSID": "ChulaWiFi",
+    "BSSID": "34:db:fd:b4:7a:ae"
+  },
+  {
+    "RSSI": -78,
+    "frequency": 2412,
+    "SSID": "ChulaWiFi",
+    "BSSID": "64:e9:50:10:08:e1"
+  },
+  {
+    "RSSI": -78,
+    "frequency": 2412,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "64:e9:50:10:08:e4"
+  },
+  {
+    "RSSI": -78,
+    "frequency": 2412,
+    "SSID": "@dtacwifi",
+    "BSSID": "64:e9:50:10:08:e3"
+  },
+  {
+    "RSSI": -79,
+    "frequency": 2412,
+    "SSID": "Chula-guest",
+    "BSSID": "34:db:fd:96:95:35"
+  },
+  {
+    "RSSI": -79,
+    "frequency": 5500,
+    "SSID": "AISSMARTLogin",
+    "BSSID": "34:db:fd:b4:7a:a8"
+  },
+  {
+    "RSSI": -79,
+    "frequency": 5240,
+    "SSID": "Chula-guest",
+    "BSSID": "00:3a:99:ce:0d:0e"
+  },
+  {
+    "RSSI": -79,
+    "frequency": 5500,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "34:db:fd:b4:7a:a9"
+  },
+  {
+    "RSSI": -79,
+    "frequency": 2412,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "64:e9:50:10:08:e5"
+  },
+  {
+    "RSSI": -79,
+    "frequency": 2462,
+    "SSID": "ChulaWiFi",
+    "BSSID": "34:db:fd:a4:e8:81"
+  },
+  {
+    "RSSI": -80,
+    "frequency": 2462,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "34:db:fd:a4:e8:85"
+  },
+  {
+    "RSSI": -80,
+    "frequency": 2462,
+    "SSID": "@dtacwifi",
+    "BSSID": "34:db:fd:a4:e8:83"
+  },
+  {
+    "RSSI": -80,
+    "frequency": 2462,
+    "SSID": "AISSMARTLogin",
+    "BSSID": "34:db:fd:a4:e8:87"
+  },
+  {
+    "RSSI": -80,
+    "frequency": 2462,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "34:db:fd:a4:e8:86"
+  },
+  {
+    "RSSI": -80,
+    "frequency": 2412,
+    "SSID": "AndroidAP",
+    "BSSID": "54:40:ad:7a:99:a2"
+  },
+  {
+    "RSSI": -80,
+    "frequency": 2412,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "34:db:fd:67:fb:a5"
+  },
+  {
+    "RSSI": -81,
+    "frequency": 2412,
+    "SSID": "@dtacwifi",
+    "BSSID": "34:db:fd:67:fb:a3"
+  },
+  {
+    "RSSI": -81,
+    "frequency": 2412,
+    "SSID": "",
+    "BSSID": "34:db:fd:67:fb:a0"
+  },
+  {
+    "RSSI": -81,
+    "frequency": 2437,
+    "SSID": "DIRECT-D8-HPPageWidePro552",
+    "BSSID": "fe:3f:db:b9:2a:d8"
+  },
+  {
+    "RSSI": -82,
+    "frequency": 5280,
+    "SSID": "AISSMARTLogin",
+    "BSSID": "64:e9:50:10:08:e8"
+  },
+  {
+    "RSSI": -82,
+    "frequency": 5280,
+    "SSID": ".@AISSUPERWiFi",
+    "BSSID": "64:e9:50:10:08:e9"
+  },
+  {
+    "RSSI": -82,
+    "frequency": 5280,
+    "SSID": "@dtacwifi",
+    "BSSID": "64:e9:50:10:08:ec"
+  },
+  {
+    "RSSI": -83,
+    "frequency": 5300,
+    "SSID": "",
+    "BSSID": "04:da:d2:2c:09:2e"
+  },
+  {
+    "RSSI": -83,
+    "frequency": 5280,
+    "SSID": "ChulaWiFi",
+    "BSSID": "64:e9:50:10:08:ee"
+  },
+  {
+    "RSSI": -84,
+    "frequency": 5240,
+    "SSID": "eduroam",
+    "BSSID": "00:24:c4:2d:97:dd"
+  },
+  {
+    "RSSI": -84,
+    "frequency": 2437,
+    "SSID": "DIRECT-D9-HPPageWidePro552",
+    "BSSID": "fe:3f:db:b9:2a:d9"
+  },
+  {
+    "RSSI": -84,
+    "frequency": 5280,
+    "SSID": "@TOT_Wi-Fi",
+    "BSSID": "64:e9:50:10:08:ea"
+  },
+  {
+    "RSSI": -85,
+    "frequency": 5300,
+    "SSID": "ChulaWiFi",
+    "BSSID": "04:da:d2:2c:09:2d"
+  },
+  {
+    "RSSI": -85,
+    "frequency": 5300,
+    "SSID": ".@TRUEWIFI",
+    "BSSID": "04:da:d2:2c:09:2f"
+  },
+  {
+    "RSSI": -85,
+    "frequency": 5280,
+    "SSID": "@dtacwifiauto",
+    "BSSID": "64:e9:50:10:08:eb"
+  },
+  {
+    "RSSI": -85,
+    "frequency": 5240,
+    "SSID": "ChulaWiFi",
+    "BSSID": "20:bb:c0:83:df:0f"
+  },
+  {
+    "RSSI": -86,
+    "frequency": 5240,
+    "SSID": "Chula-guest",
+    "BSSID": "20:bb:c0:83:df:0e"
+  },
+  {
+    "RSSI": -86,
+    "frequency": 5240,
+    "SSID": "eduroam",
+    "BSSID": "20:bb:c0:83:df:0b"
+  },
+  {
+    "RSSI": -86,
+    "frequency": 2462,
+    "SSID": "GW_001",
+    "BSSID": "10:08:c1:90:9f:71"
+  },
+  {
+    "RSSI": -88,
+    "frequency": 5240,
+    "SSID": "ChulaWiFi",
+    "BSSID": "00:24:c4:2d:97:df"
+  },
+  {
+    "RSSI": -89,
+    "frequency": 5180,
+    "SSID": "eduroam",
+    "BSSID": "00:3a:99:d6:b6:bc"
+  },
+  {
+    "RSSI": -90,
+    "frequency": 5180,
+    "SSID": "Chula-guest",
+    "BSSID": "00:3a:99:d6:b6:bf"
+  },
+  {
+    "RSSI": -91,
+    "frequency": 5240,
+    "SSID": "Chula-guest",
+    "BSSID": "00:24:c4:2d:97:de"
+  }
+]

@@ -6,20 +6,23 @@ import fp2 from "../data/fp2.json";
 import fp3 from "../data/fp3.json";
 import fp4 from "../data/fp4.json";
 import fp5 from "../data/fp5.json";
-
-// "POL3"   # 2
-// "ARCH"   # 1
-// "ENG4"   # 1
-// "EN100"  # 2
-// "ENG2"   # 2
-// "ENG1"   # 2
+import fp6 from "../data/fp6.json";
+import fp7 from "../data/fp7.json";
+import fp8 from "../data/fp8.json";
+import fp9 from "../data/fp9.json";
+import fp10 from "../data/fp10.json";
 
 const fps = [
   { b_id: "POL3", fp: fp1 },
-  { b_id: "ARCH", fp: fp2 },
-  { b_id: "ENG4", fp: fp3 },
-  { b_id: "EN100", fp: fp4 },
-  { b_id: "ENG2", fp: fp5 },
+  { b_id: "EN100", fp: fp2 },
+  { b_id: "POL3", fp: fp3 },
+  { b_id: "ARCH", fp: fp4 },
+  { b_id: "ENG4", fp: fp5 },
+  { b_id: "ENG2", fp: fp6 },
+  { b_id: "EN100", fp: fp7 },
+  { b_id: "ENG2", fp: fp8 },
+  { b_id: "ENG1", fp: fp9 },
+  { b_id: "ENG1", fp: fp10 },
 ];
 
 const edgeApi = axios.create({
