@@ -5,7 +5,7 @@ import central
 app = Flask(__name__)
 CORS(app)
 
-example_id = [1, 71, 167, 188, 202, 235, 269, 294, 303, 336]
+example_id = [1, 188, 2, 71, 167, 203, 189, 202, 236, 235]
 example_building = [
     "POL3",
     "ARCH",
@@ -13,10 +13,6 @@ example_building = [
     "EN100",
     "ENG2",
     "ENG1",
-    "MCS",
-    "MHVH",
-    "MHMK",
-    "PHYS1",
 ]
 example_query = central.init_example(example_id)
 exthit = central.init_exthit(except_id=example_id)
@@ -40,6 +36,11 @@ def get_location():
     floor, tag = ans["floor"], ans["tag"]
     res = {"building_id": building_id, "floor": floor, "tag": tag}
     return jsonify(res)
+
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, This is central server!</p>"
 
 
 if __name__ == "__main__":
