@@ -2,20 +2,16 @@ version: "3.9"
 services:
   frontend:
     container_name: frontend
-    build:
-      context: ./frontend
-      dockerfile: ./dockerfile
+    image: natthanonm/sds-edge-computing-frontend:latest
     environment:
       - VUE_APP_CLOUD_URL=${CENTRAL_ADDRESS}
       - VUE_APP_EDGE_URL=http://localhost:5000
     ports:
       - "8080:8080"
-    links:
-      - "edge-server:edge"
   edge-server:
     container_name: edge-server
+    image: natthanonm/sds-edge-computing-edge-server:latest
     environment:
       - central_address=${CENTRAL_ADDRESS}
-    build: ./backend
     ports:
       - "5000:5000"
