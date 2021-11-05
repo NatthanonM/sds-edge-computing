@@ -120,20 +120,6 @@ export default {
           responseA: null,
           responseB: null,
         },
-        {
-          qId: "9",
-          loadingA: false,
-          loadingB: false,
-          responseA: null,
-          responseB: null,
-        },
-        {
-          qId: "10",
-          loadingA: false,
-          loadingB: false,
-          responseA: null,
-          responseB: null,
-        },
       ],
     };
   },
